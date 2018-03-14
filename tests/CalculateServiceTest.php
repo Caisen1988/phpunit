@@ -6,7 +6,8 @@ use PHPUnit\Framework\TestCase;
 use Src;
 
 
-class CalculateServiceTest extends TestCase {
+class CalculateServiceTest extends TestCase
+{
     public function testAbs()
     {
 
