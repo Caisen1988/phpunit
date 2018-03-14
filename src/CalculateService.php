@@ -8,4 +8,9 @@ class CalculateService
     {
         return abs($num);
     }
+
+    public function arr()
+    {
+        return 233;
+    }
 }
