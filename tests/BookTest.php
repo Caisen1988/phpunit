@@ -1,4 +1,5 @@
 <?php
+
 namespace Test;
 
 use PHPUnit\Framework\TestCase;
@@ -9,8 +10,8 @@ class BookTest extends TestCase
     public function testgetBook()
     {
         $book = new Book;
-        $book->pushBook(1,"《三体》");
-        $this->assertEquals('《三体》',$book->getBook(1) );
+        $book->pushBook(1, "《三体》");
+        $this->assertEquals('《三体》', $book->getBook(1));
     }
 
 }
