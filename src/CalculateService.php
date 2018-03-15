@@ -11,6 +11,7 @@ class CalculateService
 
     public function arr()
     {
+        echo "111";
         return 233;
     }
 }
