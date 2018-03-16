@@ -4,8 +4,6 @@
   + Name : String
   + Image : String
   + Description ：String
-  + CreateTime : Bigint
-  + EditTime : Bigint
   + addCar()
   + editCar()
   + deleteCar()
@@ -70,6 +68,6 @@
  Customer  "0..1"<-->"1..*" Car : Association
  Car o-- Engine
  Car o-- Body
- Car o-- GearBox
+ Car o-- FuelType
 
 @enduml
