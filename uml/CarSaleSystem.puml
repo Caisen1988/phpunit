@@ -2,12 +2,8 @@
  class Car {
   + Brand : String
   + Name : String
-  + Fuel Type : String
   + Image : String
-  + Price : Double
-  + Inventory : Int
   + Description ：String
-  + Status : Int
   + CreateTime : Bigint
   + EditTime : Bigint
   + addCar()
@@ -19,16 +15,18 @@
  class Engine{
   - capacity : float
   - numberOfCylinders: Int
-  - price : Double
+  - Price : Double
+  - Inventory : Int
  }
-
  class Body{
   - numberOfDoors: Int
-  - price : Double
+  - Price : Double
+  - Inventory : Int
  }
- class GearBox{
-  - gearRatio: float
-  - price : Double
+ class FuelType{
+  - fuelTypeId: Int
+  - Price : Double
+  - Inventory : Int
  }
 
  class User {
