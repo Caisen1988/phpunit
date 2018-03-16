@@ -1,0 +1,74 @@
+@startuml
+ class Car {
+  + Brand : String
+  + Name : String
+  + Fuel Type : String
+  + Image : String
+  + Price : Double
+  + Inventory : Int
+  + Description ：String
+  + Status : Int
+  + CreateTime : Bigint
+  + EditTime : Bigint
+  + addCar()
+  + editCar()
+  + deleteCar()
+  + searchCar()
+ }
+
+ class Engine{
+  - capacity : float
+  - numberOfCylinders: Int
+ }
+
+ class Body{
+  - numberOfDoors: Int
+ }
+ class GearBox{
+  - gearRatio: float
+ }
+
+ class User {
+  + Username : String
+  + Password : String
+  + Name : String
+  + City : String
+  + Address : String
+  + Mobile : String
+  + Email : String
+  + Gender : String
+  + BOD : Bigint
+  + CreateTime : Bigint
+  + EditTime : Bigint
+  # addProfile()
+  # getProfile()
+  # updateProfile()
+ }
+
+ class Seller{
+    - User ID : Int
+    - SSN : Int
+    - ManagerSSN : Int
+    - sellCar()
+ }
+
+ class Customer{
+    - User ID : Int
+    - buyCar()
+ }
+
+ class Order{
+    +checkOut()
+    +payment()
+ }
+
+
+ User <|-- Seller : is kind of
+ User <|-- Customer : is kind of
+ Seller    "0..1"<-->"1..*" Car : Association
+ Customer  "0..1"<-->"1..*" Car : Association
+ Car o-- Engine
+ Car o-- Body
+ Car o-- GearBox
+
+@enduml
