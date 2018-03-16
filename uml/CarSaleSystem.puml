@@ -19,13 +19,16 @@
  class Engine{
   - capacity : float
   - numberOfCylinders: Int
+  - price : Double
  }
 
  class Body{
   - numberOfDoors: Int
+  - price : Double
  }
  class GearBox{
   - gearRatio: float
+  - price : Double
  }
 
  class User {
