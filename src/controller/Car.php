@@ -13,4 +13,19 @@ class Car extends MyController
 
     }
 
+    public function editCar()
+    {
+
+    }
+
+    public function deleteCar()
+    {
+
+    }
+
+    public function searchCar()
+    {
+
+    }
+
 }

@@ -10,7 +10,21 @@ Class User extends  MyController
         $this->user = new CUser();
     }
 
-    //user profile api
+    //add user's profile api
+    public function addProfile($metoh, $id)
+    {
+
+
+    }
+
+    //get user's profile api
+    public function getProfile($metoh, $id)
+    {
+
+
+    }
+
+    //update user's profile api
     public function updateProfile($metoh, $id)
     {
 
