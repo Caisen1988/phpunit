@@ -59,6 +59,11 @@
  }
 
  class Order{
+    +Customer id : Int
+    +Seller id  : Int
+    +CarSku id  : Int
+    + CreateTime : Bigint
+    + EditTime : Bigint
     +checkOut()
     +payment()
  }
@@ -66,11 +71,12 @@
 
  User <|-- Seller : is kind of
  User <|-- Customer : is kind of
- Seller    "0..1"<-->"1..*" CarSku : Association
- Customer  "0..1"<-->"1..*" CarSku : Association
  CarSku o-- Car
  CarSku o-- Engine
  CarSku o-- Body
  CarSku o-- FuelType
+ Order o-- Seller
+ Order o-- Customer
+ Order o-- CarSku
 
 @enduml
