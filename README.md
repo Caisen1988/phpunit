@@ -1,14 +1,15 @@
 ##### Directory Structure
 ```
 ├─src
-│  ├─controller      //logic code for business
-│  ├─model           //db management files
+│  ├─controller      //logic code for system
+│  ├─model           //db management
 │  └─view            //page files
 ├─tests              //phpunit files
 └─uml                //UML files
 ├─composer.json      //composer update to download libs
-├─phpunit.xml        //phpunit rule
+├─phpunit.xml        //phpunit rules
 ├─CarSaleSystem.png  //UML png file
+├─README.pfd         //readme pdf
 ```
 ##### API
 ```
