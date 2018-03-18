@@ -17,11 +17,11 @@
 │  │      Seller.php
 │  │      User.php
 │  │
-│  └─model                     // db management code
-│          Car.class.php
-│          Order.class.php
-│          User.class.php
-│
+│  ├-model                     // db management code
+│  │     Car.class.php
+│  │     Order.class.php
+│  │     User.class.php
+│  ├-view                     // view page files
 ├─tests                       //phpunit test code
 │      FibonaciiTest.php  
 │
