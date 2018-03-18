@@ -12,7 +12,7 @@
 │  ├─controller                 //api code
 │  │      Car.php
 │  │      Customer.php
-│  │      MyController.php
+│  │      MyController.php     //all contorller must extends it
 │  │      Order.php
 │  │      Seller.php
 │  │      User.php
