@@ -1,21 +1,33 @@
 ##### Directory Structure
 ```
+│  CarSaleSystem.png
+│  composer.json            //composer file    
+│  phpunit.xml              //phpunit file
+│  README.md
 ├─src
-│  ├─controller      //logic code for system
-│  ├─model           //db management
-│  └─view            //page files
-├─tests              //phpunit files
-└─uml                //UML files
-├─composer.json      //composer update to download libs
-├─phpunit.xml        //phpunit rules
-├─CarSaleSystem.png  //UML png file
-├─README.pfd         //readme pdf
+│  │  autoload.php         //phpunit autoload class
+│  │  Fibonacci.php        //case 3 Fibonacci
+│  │
+│  ├─controller
+│  │      Car.php         
+│  │      Customer.php
+│  │      MyController.php
+│  │      Seller.php
+│  │      User.php
+│  │
+│  └─model
+│          Car.class.php
+│          User.class.php
+│
+├─tests
+│      FibonaciiTest.php
+│
+└─uml
+        CarSaleSystem.puml
+
 ```
 ##### API
 ```
-//coustomer login the system
-
-
 //coustomer search car by contitions
 
 
@@ -36,12 +48,6 @@
 
 //seller feedback to coustomer for question
 
-
-
-```
-
-##### order flow
-```
 
 
 ```

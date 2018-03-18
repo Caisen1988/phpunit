@@ -5,10 +5,10 @@
  */
 require_once "../model/Car.class.php";
 
-class Car
+class Car extends MyController
 {
 
-    public function addCard()
+    public function addCar()
     {
 
     }

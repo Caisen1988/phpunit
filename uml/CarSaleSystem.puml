@@ -41,6 +41,7 @@
   + BOD : Bigint
   + CreateTime : Bigint
   + EditTime : Bigint
+  # login()
   # addProfile()
   # getProfile()
   # updateProfile()

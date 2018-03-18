@@ -74,10 +74,11 @@ class CUser
     }
 
     /**
-     *get user by id
+     *get user info by username
      */
-    public function getUserById($id)
+    public function getUserById($username)
     {
+
 
     }
 

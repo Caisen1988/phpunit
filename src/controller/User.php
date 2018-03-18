@@ -1,7 +1,7 @@
 <?php
 require_once "../model/User.class.php";
 
-Class User
+Class User extends  MyController
 {
     public $user;
 
