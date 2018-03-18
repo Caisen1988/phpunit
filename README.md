@@ -1,6 +1,6 @@
 ##### Directory Structure
 ```
-│  README.pdf                   //read me
+│  README.pdf                   //read me pdf
 │  CarSaleSystem.png            //card sal system UML pic
 │  composer.json
 │  phpunit.xml
