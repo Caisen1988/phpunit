@@ -88,7 +88,7 @@ class CCar
     /**
      *get card list
      */
-    public function getCardList()
+    public function getCardList($where)
     {
 
     }

@@ -7,6 +7,12 @@ require_once "../model/Car.class.php";
 
 class Car extends MyController
 {
+    protected $car;
+
+    public function __construct()
+    {
+        $this->car = new CCar();
+    }
 
     public function addCar()
     {
@@ -23,9 +29,16 @@ class Car extends MyController
 
     }
 
+    //search car buy condition
     public function searchCar()
     {
 
+        $where = array();
+
+        $result = $this->car->getCardList($where);
+
+        return $result;
+        
     }
 
 }

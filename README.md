@@ -34,9 +34,7 @@
 ```
 //coustomer search car by contitions
 
-
-//coustomer ask for help
-
+http://domain/user/searchCar
 
 //customer book a car
 
