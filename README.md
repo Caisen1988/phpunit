@@ -30,25 +30,3 @@
 
 
 ```
-##### API
-```
-//coustomer search car by contitions
-
-http://domain/user/searchCar
-
-//customer book a car
-
-
-//customer pay for a car
-
-
-//seller search car by contitions
-
-
-//seller update the car's information
-
-
-//seller feedback to coustomer for question
-
-
-```

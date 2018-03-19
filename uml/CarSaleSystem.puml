@@ -65,8 +65,8 @@
     +CarSku id  : Int
     + CreateTime : Bigint
     + EditTime : Bigint
-    +checkOut()
-    +payment()
+    -checkOut()
+    -payment()
  }
 
 
